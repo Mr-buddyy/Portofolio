@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="flex flex-col gap-3 px-4">
                     <div className="font-bold text-4xl">Singgih Budi Hartono</div>
                     <div className="font-semibold text-xl">Junior Website Developer</div>
-                    <div className="text-gray-400 my-10 text-justify">
+                    <div className="text-gray-400 my-10">
                         Software Engineering graduated from Purwokerto Telkom Institute of Technology, specializing in Web Development. Enthusiastic about Linux, I spend my spare time building websites and designing posters. Eager to take
                         on new challenges, I have a strong foundation in computer science and a commitment to continuous learning. Driven to make a positive impact in the tech industry through the application of my skills.
                     </div>
@@ -60,7 +60,7 @@ const Home = () => {
                     </a>
                 </div>
             </div>
-            <div className="text-justify flex flex-col w-full h-full justify-between lg:pr-24 md:px-10 sm:px-5 px-5 lg:py-20 md:py-16 sm:py-5 py-5 gap-20 overflow-scroll no-scrollbar">
+            <div className=" flex flex-col w-full h-full justify-between lg:pr-24 md:px-10 sm:px-5 px-5 lg:py-20 md:py-16 sm:py-5 py-5 gap-20 overflow-scroll no-scrollbar">
                 {/* <div id="about" className="grid grid-rows-1 px-4">
                     <div className="text-gray-400">
                         Software Engineering graduated from Purwokerto Telkom Institute of Technology, specializing in Web Development. Enthusiastic about Linux, I spend my spare time building websites and designing posters. Eager to take
@@ -71,8 +71,8 @@ const Home = () => {
                     <ul className="gap-10 flex flex-col">
                         <li className="text-2xl font-bold">Project Website Development</li>
                         <li className="p-4 grid grid-cols-8 gap-6 whitespace-no-wrap group hover:bg-white hover:bg-opacity-10 hover:rounded-lg hover:transition hover:duration-300 hover:ease-in-out">
-                            <img src={websiteEvent} className="sm:col-span-2 lg:col-span-3 bg-contain" />
-                            <div className="flex flex-col gap-2 col-span-5">
+                            <img src={websiteEvent} className="col-span-8 sm:col-span-4 md:col-span-3 lg:col-span-3 bg-contain" />
+                            <div className="flex flex-col gap-2 col-span-8 sm:col-span-4 md:col-span-5 lg:col-span-5">
                                 <div className="font-bold group-hover:text-cyan-400">Website Event, August 2023 - January 2024</div>
                                 <div className="text-gray-400">Building a website for connecting college students with sponsorships as the final assignment project, incorporating MySQL, Laravel, Tailwind CSS, and Javascript</div>
                                 <div className="group-hover:text-cyan-400">Laravel, JavaScript, Fullstack, Monolith, Tailwind CSS, MySQL</div>
@@ -80,8 +80,8 @@ const Home = () => {
                         </li>
 
                         <li className="p-4 grid grid-cols-8 gap-6 whitespace-no-wrap group hover:bg-white hover:bg-opacity-10 hover:rounded-lg hover:transition hover:duration-300 hover:ease-in-out">
-                            <img src={websiteStoik} className="sm:col-span-2 lg:col-span-3 bg-contain" />
-                            <div className="flex flex-col gap-2 col-span-5">
+                            <img src={websiteStoik} className="col-span-8  sm:col-span-4 md:col-span-3 lg:col-span-3 bg-contain" />
+                            <div className="flex flex-col gap-2 col-span-8  sm:col-span-4 md:col-span-5 lg:col-span-5">
                                 <div className="font-bold group-hover:text-cyan-400">Website Stoik, December 2023 - January 2024</div>
                                 <div className="text-gray-400">
                                     As a front-end developer, I specialize in crafting visually appealing website interfaces using the Next.js and Tailwind CSS frameworks. I seamlessly integrate backend APIs, incorporating essential
@@ -91,8 +91,8 @@ const Home = () => {
                             </div>
                         </li>
                         <li className="p-4 grid grid-cols-8 gap-6 whitespace-no-wrap group hover:bg-white hover:bg-opacity-10 hover:rounded-lg hover:transition hover:duration-300 hover:ease-in-out">
-                            <img src={websiteGamis} className="sm:col-span-2 lg:col-span-3 bg-contain" />
-                            <div className="flex flex-col gap-2 col-span-5">
+                            <img src={websiteGamis} className="col-span-8 sm:col-span-4 md:col-span-3 lg:col-span-3 bg-contain" />
+                            <div className="flex flex-col gap-2 col-span-8 sm:col-span-4 md:col-span-5 lg:col-span-5">
                                 <div className="font-bold group-hover:text-cyan-400">Website Gamis, November 2023- December 2023</div>
                                 <div className="text-gray-400">
                                     As Backend developer. Provisioning endpoints based on requirements while ensuring security, implementing business logic, handling errors, conducting backend testing, and managing databases. In the context
@@ -102,16 +102,16 @@ const Home = () => {
                             </div>
                         </li>
                         <li className="p-4 grid grid-cols-8 gap-6 whitespace-no-wrap group hover:bg-white hover:bg-opacity-10 hover:rounded-lg hover:transition hover:duration-300 hover:ease-in-out">
-                            <img src={websiteDesa} className="sm:col-span-2 lg:col-span-3 bg-contain" />
-                            <div className="flex flex-col gap-2 col-span-5">
+                            <img src={websiteDesa} className="col-span-8 sm:col-span-4 md:col-span-3 lg:col-span-3 bg-contain" />
+                            <div className="flex flex-col gap-2 col-span-8 sm:col-span-4 md:col-span-5 lg:col-span-5">
                                 <div className="font-bold group-hover:text-cyan-400">Website Desa, May 2022 - July 2022</div>
                                 <div className="text-gray-400">Developing a website for Central Sokaraja village as a project for the web design and programming midterm test, utilizing MySQL, PHP, HTML, CSS, and Tailwind</div>
                                 <div className="group-hover:text-cyan-400">PHP, JavaScript, CSS, Fullstack, MySQL</div>
                             </div>
                         </li>
                         <li className="p-4 grid grid-cols-8 gap-6 whitespace-no-wrap group hover:bg-white hover:bg-opacity-10 hover:rounded-lg hover:transition hover:duration-300 hover:ease-in-out">
-                            <img src={websiteClimateaware} className="sm:col-span-2 lg:col-span-3 bg-contain" />
-                            <div className="flex flex-col gap-2 col-span-5">
+                            <img src={websiteClimateaware} className="col-span-8 sm:col-span-4 md:col-span-3 lg:col-span-3 bg-contain" />
+                            <div className="flex flex-col gap-2 col-span-8 sm:col-span-4 md:col-span-5 lg:col-span-5">
                                 <div className="font-bold group-hover:text-cyan-400">Website Climate Aware, December 2023 - January 2024</div>
                                 <div className="text-gray-400">
                                     As Backend developer. Provisioning endpoints based on requirements while ensuring security, implementing business logic, handling errors, conducting backend testing, and managing databases. In the context
